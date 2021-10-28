@@ -6,7 +6,8 @@ Este projeto é uma versão melhorada do projeto pyDash, originalmente disponív
 ## Pré-requisitos
 
 Para a utilização deste projeto é necessária a instalação de alguns pacotes python descritos no arquivo [requirements.txt](requirements.txt). 
-Para a utilização de reprodutor de mídia DASH, é necessário a instalação de alguns pacotes do framework GStreamer. Atualmente, você encontrará instruções sobre como instalar tudo apenas em ambientes Linux. 
+
+Para a utilização do reprodutor de mídia DASH, é necessário a instalação de alguns pacotes do framework GStreamer. Atualmente, só é possível usá-lo em sistemas operacionais Linux. Logo, você encontrará instruções sobre como instalar tudo apenas em ambientes Linux. 
 
 ## Instalando o Gstreamer no Ubuntu, Debian, elementary OS, Pop!_OS
 Instalar tudo o que precisamos no Ubuntu e sistemas operacionais relacionados é fácil! Basta executar o seguinte comando no terminal: 
@@ -49,6 +50,12 @@ pip3 install -r requirements.txt
 Pronto! Para testar o código, basta executar:
 ```
 python3 main.py
+```
+
+Para usar a exibição de estatísticas através de gráficos dinâmicos simultaneamente com a aplicação pyDash, basta executar em um novo prompt de comando ou guia, após o comando acima:
+
+```
+python3 dynamic_plot.py
 ```
 
 # Arquitetura 
