@@ -18,6 +18,15 @@ If you have any questions regarding the pyDash project, please drop us an email.
 ## Pré-requisitos
 
 Para a utilização deste projeto é necessária a instalação de alguns pacotes python descritos no arquivo [requirements.txt](requirements.txt). 
+Para a utilização de reprodutor de mídia DASH, é necessário a instalação de alguns pacotes do framework GStreamer. Atualmente, você encontrará instruções sobre como instalar tudo apenas em ambientes Linux. 
+
+## Instalando o Gstreamer no Ubuntu, Debian, elementary OS, Pop!_OS
+Instalar tudo o que precisamos no Ubuntu e sistemas operacionais relacionados é fácil! Basta executar o seguinte comando no terminal: 
+
+```bash
+sudo apt install libgstreamer1.0-0 gstreamer1.0-plugins-{base,good,bad,ugly} gstreamer1.0-tools python3-gi gir1.2-gstreamer-1.0
+```
+
 
 ## Por onde eu começo?
 
