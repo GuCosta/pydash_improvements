@@ -1,17 +1,5 @@
 # pyDash: A Framework Based Educational Tool for Adaptive Streaming Video Algorithms Study
-
-![bigbuckbunny](https://user-images.githubusercontent.com/4336448/118493151-2b9fc380-b6f7-11eb-8a25-9134862da754.jpg) A Python Dash Project. 
-
-PyDash is a framework for the development of adaptive streaming video algorithms. It is a learning tool designed to abstract the networking communication details, allowing e-students to focus exclusively on developing and evaluating ABR protocols.
-
-# Who we are?
-
-We are from the **Department of Computer Science** at the **University of Brasília (UnB)**, Brazil.
-
-This project is leaded by [Prof. Dr. Marcos Caetano](mailto:mfcaetano@unb.br) and [Prof. Dr. Marcelo Marotta](mailto:marcelo.marotta@unb.br). 
-
-If you have any questions regarding the pyDash project, please drop us an email.
-
+Este projeto é uma versão melhorada do projeto pyDash, originalmente disponível em https://github.com/mfcaetano/pydash.git.
 
 # Instalation Process
 
@@ -26,8 +14,6 @@ Instalar tudo o que precisamos no Ubuntu e sistemas operacionais relacionados é
 ```bash
 sudo apt install libgstreamer1.0-0 gstreamer1.0-plugins-{base,good,bad,ugly} gstreamer1.0-tools python3-gi gir1.2-gstreamer-1.0
 ```
-
-
 ## Por onde eu começo?
 
 Existem algumas formas de você configurar o seu ambiente. Nesta seção iremos apresentar apenas uma das formas possíveis.
@@ -35,19 +21,18 @@ Existem algumas formas de você configurar o seu ambiente. Nesta seção iremos 
 * O primeiro passo é fazer o checkout do seu código. Utilizando um terminal, faça um clone do repositório.
 
 ```
-git clone https://github.com/mfcaetano/pydash.git
+Com melhorias: https://github.com/GuCosta/pydash_improvements.git
 ```
-
-Se você está fazendo uma das cadeiras de redes do Departamento de Computação da UnB, sugerimos que você não faça simplesmente o download do código. Clone o repositório pois atualizações desta ferramenta serão feitas para que novas funcionalidades sejam disponibilizadas para vocês.
+Em seguida, crie um ambiente virtual
 
 ```
-python3 -m venv pydash/venv
+python3 -m venv pydash_improvements/venv
 ```
 
 * Entre no repositório
 
 ```
-cd pydash
+cd pydash_improvements
 ```
 
 * O próximo passo é ativar o terminal e carregar as configurações python.
