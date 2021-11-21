@@ -2,6 +2,7 @@
 Este projeto é uma versão melhorada do projeto pyDash, originalmente disponível em https://github.com/mfcaetano/pydash.git.
 
 Versão do SO utilizada: Ubuntu 20.04.3 LTS
+
 Versão do Gstreamer: 1.0
 
 # Instalation Process
