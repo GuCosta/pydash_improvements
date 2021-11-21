@@ -22,7 +22,7 @@ Existem algumas formas de você configurar o seu ambiente. Nesta seção iremos 
 * O primeiro passo é fazer o checkout do seu código. Utilizando um terminal, faça um clone do repositório.
 
 ```
-Com melhorias: https://github.com/GuCosta/pydash_improvements.git
+https://github.com/GuCosta/pydash_improvements.git
 ```
 Em seguida, crie um ambiente virtual
 
