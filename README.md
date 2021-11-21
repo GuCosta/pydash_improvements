@@ -1,13 +1,16 @@
 # pyDash: A Framework Based Educational Tool for Adaptive Streaming Video Algorithms Study
 Este projeto é uma versão melhorada do projeto pyDash, originalmente disponível em https://github.com/mfcaetano/pydash.git.
 
+Versão do SO utilizada: Ubuntu 20.04.3 LTS
+Versão do Gstreamer: 1.0
+
 # Instalation Process
 
 ## Pré-requisitos
 
-Para a utilização deste projeto é necessária a instalação de alguns pacotes python descritos no arquivo [requirements.txt](requirements.txt). 
+Para a utilização deste projeto é necessária a instalação de alguns pacotes  python descritos no arquivo [requirements.txt](requirements.txt). 
 
-Para a utilização do reprodutor de mídia DASH, é necessário a instalação de alguns pacotes do framework GStreamer. Atualmente, só é possível usá-lo em sistemas operacionais Linux. Logo, você encontrará instruções sobre como instalar tudo apenas em ambientes Linux. 
+Para a utilização do reprodutor de mídia DASH, é necessário a instalação de alguns pacotes do framework GStreamer. Atualmente, só é possível ativá-lo em sistemas operacionais Linux. Logo, você encontrará instruções sobre como instalar tudo apenas em ambientes Linux. 
 
 ## Instalando o Gstreamer no Ubuntu, Debian, elementary OS, Pop!_OS
 Instalar tudo o que precisamos no Ubuntu e sistemas operacionais relacionados é fácil! Basta executar o seguinte comando no terminal: 
@@ -22,7 +25,7 @@ Existem algumas formas de você configurar o seu ambiente. Nesta seção iremos 
 * O primeiro passo é fazer o checkout do seu código. Utilizando um terminal, faça um clone do repositório.
 
 ```
-https://github.com/GuCosta/pydash_improvements.git
+git clone https://github.com/GuCosta/pydash_improvements.git
 ```
 Em seguida, crie um ambiente virtual
 
